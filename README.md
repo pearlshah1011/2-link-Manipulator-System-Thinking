@@ -1,22 +1,16 @@
-# Proportional-Integral-Derivative (PID) Controller for 2-Link Robotic Manipulator
+# Proportional-Integral-Derivative Controller for 2-Link Robotic Manipulator
 
 ## Abstract
-This paper proposes and analyzes a Proportional-Integral-Derivative (PID) controller for a classic 2-link robotic manipulator. Initially, we present the equations of motion for the two-link robotic manipulator. The primary focus is on controlling the robot manipulator to achieve the desired position using the computed torque control method. Control simulations are conducted using MATLAB, and various computer simulations are employed to evaluate the controller's performance. Specifically, simulations are performed under Proportional-Derivative (PD), Proportional-Integral (PI), and PID control with different sets of control gains (kp, ki, kd). The findings and analysis are verified through simulations using MATLAB's SIMULINK. Additionally, the pros and cons of different control models are discussed.
+This project delves into the implementation and examination of a Proportional-Integral-Derivative (PID) controller for a traditional 2-link robotic manipulator. It begins by outlining the equations governing the motion of the two-link robotic arm. The primary objective is to regulate the manipulator's movements to reach a specified position through computed torque control. MATLAB is utilized for control simulations, where the performance of the controller is assessed through various computer simulations. These simulations encompass Proportional-Derivative (PD), Proportional-Integral (PI), and PID control methods employing different sets of control parameters (kp, ki, kd). The efficacy of the controller is validated through MATLAB's SIMULINK. Furthermore, the strengths and limitations of each control model are scrutinized and discussed in detail.
 
 
 ## Contents
-- Equations of Motion: Mathematical equations describing the dynamics of the 2-link robotic manipulator.
-- PID Controller Design: Implementation of the PID controller for controlling the manipulator's position.
-- Simulation Setup: Detailed instructions on how to conduct simulations using MATLAB and SIMULINK.
-- Results and Analysis: Discussion of simulation results and analysis of controller performance under different control models.
-- Extensive Use of **SIMULINK**: Explanation of the significant role SIMULINK plays in visualizing and analyzing the simulated system.
-- Conclusion: Summary of findings and insights gained from the study.
-
-## Instructions for Simulations
-1. Run the provided MATLAB scripts for PID controller design and simulation setup.
-2. Adjust control gains (kp, ki, kd) as necessary to observe the effects on controller performance.
-3. Utilize SIMULINK to visualize the simulated system and observe real-time responses.
-4. Analyze the results and compare the performance of PD, PI, and PID control strategies.
+- Dynamics Formulation: Mathematical expressions delineating the dynamic behavior of the 2-link robotic arm, elucidating how its movements are governed.
+- PID Controller Implementation: Application of the PID controller to regulate the position of the robotic manipulator, outlining the process of integrating proportional, integral, and derivative control components.
+- Simulation Configuration: Elaborate guidelines on setting up simulations in MATLAB and SIMULINK, offering step-by-step instructions for executing the experiments.
+- Findings and Interpretations: Examination of simulation outcomes and assessment of controller efficacy across different control paradigms, accompanied by insightful analysis.
+- Prominent Utilization of SIMULINK: Emphasis on the pivotal role played by SIMULINK in visualizing and scrutinizing the simulated system, highlighting its significance in the study.
+- Concluding Remarks: Summarization of key discoveries and perspectives gleaned from the investigation, encapsulating the implications of the study's outcomes.
 
 ## Pros and Cons of Different Control Models
 - **PID Controller:**
